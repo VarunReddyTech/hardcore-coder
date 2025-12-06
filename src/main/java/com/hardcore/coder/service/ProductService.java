@@ -25,6 +25,7 @@ public class ProductService {
     }
 
     public List<Product> getProducts() {
+        System.out.println("Satoru");
         return products;
     }
 
