@@ -15,8 +15,7 @@ public class HardcoreCoder1Application {
 		ApplicationContext context = SpringApplication.run(HardcoreCoder1Application.class, args);
 
 		ProductService service = context.getBean(ProductService.class);
-
-
+		System.out.println("Git merge conflict test");
 	}
 
 }
